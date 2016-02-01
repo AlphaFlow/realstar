@@ -1,1 +1,1 @@
-web: node --harmony bin/www.js
+web: node --harmony bin/www
