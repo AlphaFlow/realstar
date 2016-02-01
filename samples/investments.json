@@ -1,0 +1,119 @@
+[
+    {
+        "investment_id": "HHS3iy27i3",
+        "name": "123 Main St",
+        "asset_class": "real_estate",
+        "class": "residential",
+        "status": "funding",
+        "location_url": "https://yoursite.com/deals/123-main-st-HHS3iy27i3",
+        "picture_urls": [
+            "http://aws-s3.amazon.com/path/main.jpeg",
+            "http://aws-s3.amazon.com/path/front.jpeg"
+        ],
+        "location": {
+            "street": "123 Main St",
+            "city": "San Francisco",
+            "state_province": "CA",
+            "postal_code": "94512",
+            "country": "US"
+        },
+        "highlights": "Max 250 chars highlighting this opportunity",
+        "description": "Blurb text describing this opportunity. No HTML tags, max 1000 chars",
+        "sponsor": {
+            "name": "Realty Corp",
+            "website_url": "http://www.SomeRealtyCorp.com",
+            "details": "Sponsor highlights and background text",
+            "sponsor_id": "55ERNY978y2"
+        },
+        "funding": {
+            "loan": {
+                "unique_id": "986373hhsf",
+                "amount": 750000,
+                "term": {
+                    "min": 36,
+                    "max": 36
+                },
+                "interest_rate": 0.12,
+                "ltv": 0.75,
+                "servicing_fee": 0.05,
+                "profit_share": 0.06
+            },
+            "investor_requirements": {
+                "minimum_investment": 5000,
+                "restricted_to": "506c"
+            },
+            "funding_target_amount": 750000,
+            "amount_funded_to_date": 330000,
+            "pay_frequency": "monthly",
+            "next_payment_on": "2016-02-28T00:00:00Z"
+        },
+        "events": {
+            "added_on": "2016-01-25T00:00:00Z",
+            "funded_on": "2016-01-27T00:00:00Z",
+            "closed_on": "2016-01-28T00:00:00Z",
+            "completed_on": "2016-01-30T00:00:00Z"
+        },
+        "last_updated_on": "2016-02-28T15:32:29Z"
+    },
+    {
+        "investment_id": "78AF3iy27i3",
+        "name": "224 Broadway Ave",
+        "asset_class": "real_estate",
+        "class": "office",
+        "status": "active",
+        "location_url": "https://yoursite.com/deals/78AF3iy27i3",
+        "picture_urls": [
+            "http://aws-s3.amazon.com/path/main.jpeg",
+            "http://aws-s3.amazon.com/path/front.jpeg"
+        ],
+        "location": {
+            "street": "224 Broadway Ave",
+            "city": "San Francisco",
+            "state_province": "CA",
+            "postal_code": "94512",
+            "country": "US"
+        },
+        "highlights": "Max 250 chars highlighting this opportunity",
+        "description": "Blurb text describing this opportunity. No HTML tags, max 1000 chars",
+        "sponsor": {
+            "name": "Realty Corp",
+            "website_url": "http://www.SomeRealtyCorp.com",
+            "details": "Sponsor highlights and background text",
+            "sponsor_id": "55ERNY978y2"
+        },
+        "funding": {
+            "equity": {
+                "unique_id": "486303aasd",
+                "amount": 1250000,
+                "term": {
+                    "min": 12,
+                    "max": 18
+                },
+                "net_irr": 0.13,
+                "coc": 0.16,
+                "profit_share": 0.06,
+                "preference": 0.04,
+                "split_above_preference": 0.04,
+                "servicing_fee": 0.05,
+                "acquisition_fee": 0.03,
+                "aum_fee": 0.01,
+                "gross_irr": 0.14
+            },
+            "investor_requirements": {
+                "minimum_investment": 5000,
+                "restricted_to": "506b"
+            },
+            "funding_target_amount": 1250000,
+            "amount_funded_to_date": 1250000,
+            "pay_frequency": "quarterly",
+            "next_payment_on": "2016-04-28T00:00:00Z"
+        },
+        "events": {
+            "added_on": "2016-01-25T00:00:00Z",
+            "funded_on": "2016-01-27T00:00:00Z",
+            "closed_on": "2016-01-28T00:00:00Z",
+            "completed_on": "2016-01-30T00:00:00Z"
+        },
+        "last_updated_on": "2016-02-28T15:32:29Z"
+    }
+]

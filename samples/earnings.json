@@ -1,0 +1,34 @@
+[
+  {
+    "earning_id": "AH8i8HAY624",
+    "user_investment_id": "98363iy27i3",
+    "investment_id": "HHS3iy27i3",
+    "posted_on": "2015-12-03T00:00:00.917Z",
+    "type": "interest",
+    "amount": 22.97
+  },
+  {
+    "earning_id": "9898i8HAY724",
+    "user_investment_id": "98363iy27i3",
+    "investment_id": "HHS3iy27i3",
+    "posted_on": "2016-01-03T00:00:00.917Z",
+    "type": "interest",
+    "amount": 22.97
+  },
+  {
+    "earning_id": "KAP8i8HAY72O",
+    "user_investment_id": "AY363iy8sY",
+    "investment_id": "8LAP3iy28QT",
+    "posted_on": "2016-01-02T00:00:00.917Z",
+    "type": "dividend",
+    "amount": 330.29
+  },
+  {
+    "earning_id": "7O98i8HAY684",
+    "user_investment_id": "98363iy27i3",
+    "investment_id": "HHS3iy27i3",
+    "posted_on": "2016-02-02T00:00:00.917Z",
+    "type": "principal",
+    "amount": 5000
+  }
+]
