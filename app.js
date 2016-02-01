@@ -48,8 +48,8 @@ var auth = function (req, res, next) {
 app.use('/', routes);
 
 //Basic auth needed to access the endpoints
-app.use('/syndicate/users', auth, users);
-app.use('/syndicate/investments', auth, investments);
+app.use('/syndicate/v1/users', auth, users);
+app.use('/syndicate/v1/investments', auth, investments);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
