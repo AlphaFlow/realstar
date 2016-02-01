@@ -4,6 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var basicAuth = require('basic-auth');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
@@ -24,9 +25,31 @@ app.use(cookieParser());
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
+var auth = function (req, res, next) {
+  function unauthorized(res) {
+    res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
+    return res.send(401);
+  };
+
+  var user = basicAuth(req);
+
+  if (!user || !user.name || !user.pass) {
+    return unauthorized(res);
+  };
+
+  //Allow any password and name.
+  if (true) {
+    return next();
+  } else {
+    return unauthorized(res);
+  };
+};
+
 app.use('/', routes);
-app.use('/users', users);
-app.use('/investments', investments);
+
+//Basic auth needed to access the endpoints
+app.use('/syndicate/users', auth, users);
+app.use('/syndicate/investments', auth, investments);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
