@@ -35,7 +35,7 @@
                 },
                 "interest_rate": 0.12,
                 "ltv": 0.75,
-                "servicing_fee": 0.05,
+                "platform_fee": 0.01,
                 "profit_share": 0.06
             },
             "investor_requirements": {
@@ -94,7 +94,7 @@
                 "profit_share": 0.06,
                 "preference": 0.04,
                 "split_above_preference": 0.04,
-                "servicing_fee": 0.05,
+                "platform_fee": 0.01,
                 "acquisition_fee": 0.03,
                 "aum_fee": 0.01,
                 "gross_irr": 0.14
