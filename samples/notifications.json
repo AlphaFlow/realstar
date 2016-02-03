@@ -1,32 +1,20 @@
 [
   {
-    "user_investment_id": "98363iy27i3",
+    "notification_id": "283HHAR",
+    "generated_at": "2016-01-30T14:30:00.981Z",
+    "type": "info",
     "investment_id": "HHS3iy27i3",
-    "invested_amount": 5000,
-    "events": {
-      "principal_invested_on": "2016-01-25T00:00:00.917Z",
-      "principal_wired_on": "2016-01-25T00:01:20.917Z",
-      "earnings_accrue_from": "2016-01-29T00:00:00.917Z",
-      "completed_on": "2016-02-06T00:00:00.917Z"
-    },
-    "investing_entity": {
-      "name": "John Doe",
-      "legal_type": "individual"
-    }
+    "is_public": true,
+    "subject": "Project update for 123 Main st",
+    "body": "Any text, max 5000 chars. Can contain HTML formatting and links outside of AlphaFlow."
   },
   {
-    "user_investment_id": "h7363iy27j4",
-    "investment_id": "72K3iy27i3",
-    "invested_amount": 10000,
-    "events": {
-      "principal_invested_on": "2016-01-25T00:00:00.917Z",
-      "principal_wired_on": "2016-01-25T00:01:20.917Z",
-      "earnings_accrue_from": "2016-01-29T00:00:00.917Z",
-      "completed_on": "2016-02-06T00:00:00.917Z"
-    },
-    "investing_entity": {
-      "name": "Johnny 401k Trust",
-      "legal_type": "trust"
-    }
+    "notification_id": "883BBA7",
+    "generated_at": "2016-02-03T10:30:00.981Z",
+    "type": "warning",
+    "investment_id": "HHS3iy27i3",
+    "is_public": false,
+    "subject": "Late payment for 123 Main St",
+    "body": "Any text, max 5000 chars. Can contain HTML formatting and links outside of AlphaFlow."
   }
 ]

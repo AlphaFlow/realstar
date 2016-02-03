@@ -1,10 +1,10 @@
 [
   {
-    "user_investment_id": "98363iy27i3",
+    "contribution_id": "98363iy27i3",
     "investment_id": "HHS3iy27i3",
     "invested_amount": 5000,
     "events": {
-      "principal_invested_on": "2016-01-25T00:00:00.917Z",
+      "created_on": "2016-01-25T00:00:00.917Z",
       "principal_wired_on": "2016-01-25T00:01:20.917Z",
       "earnings_accrue_from": "2016-01-29T00:00:00.917Z",
       "completed_on": "2016-02-06T00:00:00.917Z"
@@ -15,11 +15,11 @@
     }
   },
   {
-    "user_investment_id": "h7363iy27j4",
+    "contribution_id": "h7363iy27j4",
     "investment_id": "72K3iy27i3",
     "invested_amount": 10000,
     "events": {
-      "principal_invested_on": "2016-01-25T00:00:00.917Z",
+      "created_on": "2016-01-25T00:00:00.917Z",
       "principal_wired_on": "2016-01-25T00:01:20.917Z",
       "earnings_accrue_from": "2016-01-29T00:00:00.917Z",
       "completed_on": "2016-02-06T00:00:00.917Z"

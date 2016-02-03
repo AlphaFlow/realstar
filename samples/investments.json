@@ -15,7 +15,7 @@
             "city": "San Francisco",
             "state_province": "CA",
             "postal_code": "94512",
-            "country": "US"
+            "country": "CA"
         },
         "highlights": "Max 250 chars highlighting this opportunity",
         "description": "Blurb text describing this opportunity. No HTML tags, max 1000 chars",
@@ -40,7 +40,7 @@
             },
             "investor_requirements": {
                 "minimum_investment": 5000,
-                "restricted_to": "506c"
+                "restricted_to": "506(C)"
             },
             "funding_target_amount": 750000,
             "amount_funded_to_date": 330000,
@@ -94,14 +94,14 @@
                 "profit_share": 0.06,
                 "preference": 0.04,
                 "split_above_preference": 0.04,
-                "platform_fee": 0.01,
+                "platform_fee": 0.012,
                 "acquisition_fee": 0.03,
                 "aum_fee": 0.01,
                 "gross_irr": 0.14
             },
             "investor_requirements": {
                 "minimum_investment": 5000,
-                "restricted_to": "506b"
+                "restricted_to": "506(B)"
             },
             "funding_target_amount": 1250000,
             "amount_funded_to_date": 1250000,
