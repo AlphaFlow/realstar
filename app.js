@@ -28,21 +28,25 @@ app.use(express.static(path.join(__dirname, 'public')));
 var auth = function (req, res, next) {
   function unauthorized(res) {
     res.set('WWW-Authenticate', 'Basic realm=Authorization Required');
-    return res.send(401);
-  };
+    return res.status(403).send({
+      "error": "Forbidden",
+      "code": "some_code",
+      "reason": "The API Key is invalid"
+    });
+  }
 
   var user = basicAuth(req);
 
   if (!user || !user.name || !user.pass) {
     return unauthorized(res);
-  };
+  }
 
   //Allow any password and name.
   if (true) {
     return next();
   } else {
     return unauthorized(res);
-  };
+  }
 };
 
 app.use('/', routes);
