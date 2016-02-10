@@ -7,8 +7,7 @@
         "status": "active",
         "location_url": "https://yoursite.com/deals/123-main-st-HHS3iy27i3",
         "picture_urls": [
-            "http://aws-s3.amazon.com/path/main.jpeg",
-            "http://aws-s3.amazon.com/path/front.jpeg"
+            "http://sandbox.alphaflow.com.s3.amazonaws.com/sample-images/residential.jpg"
         ],
         "location": {
             "street": "123 Main St",
@@ -63,8 +62,7 @@
         "status": "active",
         "location_url": "https://yoursite.com/deals/78AF3iy27i3",
         "picture_urls": [
-            "http://aws-s3.amazon.com/path/main.jpeg",
-            "http://aws-s3.amazon.com/path/front.jpeg"
+            "http://sandbox.alphaflow.com.s3.amazonaws.com/sample-images/office.jpg"
         ],
         "location": {
             "street": "224 Broadway Ave",
