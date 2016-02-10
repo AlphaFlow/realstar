@@ -4,7 +4,7 @@
         "name": "123 Main St",
         "asset_class": "real_estate",
         "class": "residential",
-        "status": "funding",
+        "status": "active",
         "location_url": "https://yoursite.com/deals/123-main-st-HHS3iy27i3",
         "picture_urls": [
             "http://aws-s3.amazon.com/path/main.jpeg",
