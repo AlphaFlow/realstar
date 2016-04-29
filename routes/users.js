@@ -57,4 +57,13 @@ router.post('/', function (req, res, next) {
   });
 });
 
+router.post('/:apikey/contributions', function (req, res, next) {
+  res.status(201).json({
+    "state": {
+      "fa-invest-now":"M1B0lHaskX3y23uXduRlqQe-pv9oFkTy:6kowng5wTVKjZPdUGp6mvA"
+    }
+  });
+});
+
+
 module.exports = router;
